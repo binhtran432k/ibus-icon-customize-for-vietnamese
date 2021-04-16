@@ -16,8 +16,8 @@ install:
 	    exit 1; \
 	fi
 	python geticon.py
-	python install.py &&\
-	ibus restart
+	python install.py
+
 default:
 	python geticon.py default &&\
 	ibus restart
